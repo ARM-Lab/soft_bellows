@@ -1,0 +1,14 @@
+VAR_CONFIG
+	::ventil_a1 AT %QX."X20DO8322".DigitalOutput01;
+	::ventil_b2 AT %QX."X20DO8322".DigitalOutput02;
+	::ventil_d4 AT %QX."X20DO8322".DigitalOutput04;
+	::ventil_c3 AT %QX."X20DO8322".DigitalOutput05;
+	reg_1  AT %QW."X20AO4622".AnalogOutput01;
+	reg_2  AT %QW."X20AO4622".AnalogOutput02;
+	reg_3  AT %QW."X20AO4622".AnalogOutput03;
+	reg_4  AT %QW."X20AO4622".AnalogOutput04;
+	reg_5 AT %QW."X20AO4622a".AnalogOutput01;
+	reg_6  AT %QW."X20AO4622a".AnalogOutput02;
+	reg_7  AT %QW."X20AO4622a".AnalogOutput03;
+	reg_8  AT %QW."X20AO4622a".AnalogOutput04;
+END_VAR

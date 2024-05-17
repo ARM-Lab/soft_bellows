@@ -1,0 +1,8 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Program1 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=132 Type=0 Scope=12 Force=62 Index=4 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                   zapni                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                               ventil_a1                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
+                               ventil_b2                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
+                               ventil_c3                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
+                               ventil_d4                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         

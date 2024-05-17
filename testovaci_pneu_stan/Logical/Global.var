@@ -1,0 +1,15 @@
+VAR
+	ventil_d4 : {REDUND_UNREPLICABLE} BOOL := FALSE;
+	ventil_c3 : {REDUND_UNREPLICABLE} BOOL := FALSE;
+	ventil_b2 : {REDUND_UNREPLICABLE} BOOL := FALSE;
+	ventil_a1 : {REDUND_UNREPLICABLE} BOOL := FALSE;
+	zapni : {REDUND_UNREPLICABLE} BOOL := FALSE;
+	reg_1 : INT := 0;
+	reg_2 : INT := 0;
+	reg_3 : INT := 0;
+	reg_4 : INT := 0;
+	reg_5 : INT := 0;
+	reg_6 : INT := 0;
+	reg_7 : INT := 0;
+	reg_8 : INT := 0;
+END_VAR

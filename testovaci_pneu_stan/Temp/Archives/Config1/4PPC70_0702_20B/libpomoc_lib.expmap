@@ -1,0 +1,6 @@
+{
+  global:
+    cyklovac_b;
+  local:
+    *;
+ };

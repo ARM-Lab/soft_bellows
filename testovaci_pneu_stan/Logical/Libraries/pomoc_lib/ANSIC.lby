@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="1.00.0" SubType="ANSIC" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>cyklovac_BB.c</File>
+    <File>cyklovac_BB.h</File>
+    <File>cyklovac_BB_data.c</File>
+    <File>cyklovac_BB_private.h</File>
+    <File>cyklovac_BB_types.h</File>
+    <File>cyklovac_b.c</File>
+    <File>lib_properties.txt</File>
+    <File>multiword_types.h</File>
+    <File>pomoc_lib.fun</File>
+    <File>pomoc_lib.typ</File>
+    <File>pomoc_lib.var</File>
+    <File>rt_defines.h</File>
+    <File>rtmodel.h</File>
+    <File>rtwtypes.h</File>
+    <File>rtw_continuous.h</File>
+    <File>rtw_solver.h</File>
+    <File>tmwtypes.h</File>
+  </Files>
+</Library>

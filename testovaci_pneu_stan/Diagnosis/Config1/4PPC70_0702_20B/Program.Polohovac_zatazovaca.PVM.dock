@@ -1,0 +1,14 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Program 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=114 Type=0 Scope=0 Force=0 Index=7 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                   gAxis                          axis_type[0..1]    0 "                                                               *"    0   24    2    0    0    0         
+                                gAxis[0]                                axis_type    0 "                                                               *"    1   24    1    0    0    0         
+                                  Status                         axis_status_type    0 "                                                               *"    2   24    1    0    0    0         
+                             DriveStatus                       MC_DRIVESTATUS_TYP    0 "                                                               *"    3   24    1    0    0    0         
+                                HomingOk                                     BOOL    0 "                                                               *"    4    1    1    2    0    0         
+              rychlost_zatazovacej_osy_y                                     REAL    0 "                                                             0.0"    0    8    1   10    1    0         
+              rychlost_zatazovacej_osy_x                                     REAL    0 "                                                             0.0"    0    8    1   10    1    0         
+                poloho_zatazovacej_osy_y                                    LREAL    0 "                                              171.89548799070036"    0   14    1   10    0    0         
+                poloho_zatazovacej_osy_x                                    LREAL    0 "                                              222.22281689221626"    0   14    1   10    0    0         
+                            elapsed_time                                     REAL    0 "                                                             0.0"    0    8    1   10    1    0         
+                                    step                                      INT    0 "                                                               1"    0    3    1   10    1    0         
