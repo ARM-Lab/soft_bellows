@@ -8,13 +8,13 @@ import re
 
 class PLC_interface(Node):
     def __init__(self):
-        super().__init__("plc_interface")
+        super().__init__("soft_bellows_plc_interface")
         self.publisher = self.create_publisher(SoftBellowsPressure, '/soft_bellows_plc', 10)
         self.timer_ = self.create_timer(0.01, self.plc_receiver)
         self.get_logger().info("PLC listener started ...")
     
     def plc_receiver(self):
-        localIP = "192.168.1.43" #41
+        localIP = "192.168.0.186" #41
         localPort = 12050
         sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         server_address = (localIP, localPort)
@@ -31,7 +31,6 @@ class PLC_interface(Node):
         self.publisher_.publish(pressure_message)
         self.get_logger().info("PLC:"+str(pressure_message))
         
-            
 
 def main(args=None):
     rclpy.init(args=args)

@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "plc_interface = soft_bellows_plc_interface.plc_interface:main"
+            "soft_bellows_plc_interface = soft_bellows_plc_interface.soft_bellows_plc_interface:main"
         ],
     },
 )
