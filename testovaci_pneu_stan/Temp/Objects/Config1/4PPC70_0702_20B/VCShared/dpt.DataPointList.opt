@@ -1,0 +1,9 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="D:/Projekty/pneu_aktuatory/plc/peristhaltic_selecter/Physical/Config1/4PPC70_0702_20B/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="Program1" Source="Riadenie.Program.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.9.2.46?><Library xmlns="http://br-automation.co.at/AS/Library" SubType="ANSIC" Version="1.00.0">
+   <Files>
+      <File>generator_trajektorie_test.c</File>
+      <File>generator_trajektorie_test.h</File>
+      <File>generator_trajektorie_test_private.h</File>
+      <File>generator_trajektorie_test_types.h</File>
+      <File>lib_properties.txt</File>
+      <File>multiword_types.h</File>
+      <File>rtGetInf.c</File>
+      <File>rtGetInf.h</File>
+      <File>rtGetNaN.c</File>
+      <File>rtGetNaN.h</File>
+      <File>rt_defines.h</File>
+      <File>rt_nonfinite.c</File>
+      <File>rt_nonfinite.h</File>
+      <File>rtmodel.h</File>
+      <File>rtwtypes.h</File>
+      <File>traj.c</File>
+      <File>traj_lib.fun</File>
+      <File>traj_lib.typ</File>
+      <File>traj_lib.var</File>
+      <File>rtw_continuous.h</File>
+      <File>rtw_solver.h</File>
+      <File>tmwtypes.h</File>
+   </Files>
+</Library>

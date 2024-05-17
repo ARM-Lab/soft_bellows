@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Project xmlns="http://br-automation.co.at/AS/Project"><Active ID="0"/><Configuration Name="Config1"/><ConfigurationFiles xmlns="" ConfigurationName="Config1" ActiveConfigurationFile="\Logical\Source\Serva\Cyclic.st"><ConfigurationFile Placement="\Logical\Source\Serva\Cyclic.st,Source.Serva,2,44,0,1,-1,-1,-1,-1,2,30,1535,707"/><ConfigurationFile Placement="\Virtual\4PPC70_0702_20B.sw,,1,44,0,1,-1,-1,-1,-1,2,30,1535,707"/></ConfigurationFiles></Project>

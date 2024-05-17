@@ -1,0 +1,6 @@
+{
+  global:
+    test_c1;
+  local:
+    *;
+ };

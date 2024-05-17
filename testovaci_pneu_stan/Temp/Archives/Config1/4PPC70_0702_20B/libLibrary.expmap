@@ -1,0 +1,8 @@
+{
+  global:
+    suma;
+    transf_angle2dest;
+    Sin_signal;
+  local:
+    *;
+ };

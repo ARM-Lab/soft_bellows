@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
+  <TreeView ID="D:\Dizertacka\2Axis pneu stand PLC\pneuStand\Logical\Polohovac_osi\Program\Variables.var" EditColumn="6" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
+    <Columns>
+      <Column Index="0" Width="200" Position="0" />
+      <Column Index="1" Width="100" Position="1" />
+      <Column Index="2" Width="110" Position="2" />
+      <Column Index="3" Width="98" Position="3" />
+      <Column Index="4" Width="72" Position="4" />
+      <Column Index="5" Width="112" Position="5" />
+      <Column Index="6" Width="100" Position="6" />
+      <Column Index="7" Width="200" Position="7" />
+      <Column Index="8" Width="0" Position="8" />
+      <Column Index="9" Width="0" Position="9" />
+      <Column Index="10" Width="0" Position="10" />
+    </Columns>
+    <ExpandedNodes />
+    <SelectedNodes>
+      <SelectedNode Row="3" />
+    </SelectedNodes>
+    <ZoomIndices />
+  </TreeView>
+  <TextEdit ID="D:\Dizertacka\2Axis pneu stand PLC\pneuStand\Logical\Library\Sin_signal.st" CaretLine="3" CaretColumn="1" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Dizertacka\2Axis pneu stand PLC\pneuStand\Logical\Source\Serva\Cyclic.st" CaretLine="46" CaretColumn="6" FirstVisibleLine="37">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Dizertacka\2Axis pneu stand PLC\pneuStand\Logical\LibACP10MC_Axes_ST\Axes\AxesInit.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="26">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Dizertacka\2Axis pneu stand PLC\pneuStand\Logical\LibACP10MC_Axes_ST\Axes\AxesActions.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="142">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Dizertacka\2Axis pneu stand PLC\pneuStand\Logical\LibACP10MC_Axes_ST\Axes\AxesCyclic.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="3">
+    <Bookmarks />
+  </TextEdit>
+  <TreeView ID="Logical\gAxis01obj\gAxis01i\gAxis01i.ax" EditColumn="0" TopRow="108" HorizontalScrollOffset="0" SortedColumn="0">
+    <Columns>
+      <Column Index="0" Width="100" Position="0" />
+      <Column Index="1" Width="100" Position="1" />
+      <Column Index="2" Width="50" Position="2" />
+      <Column Index="3" Width="50" Position="3" />
+    </Columns>
+    <ExpandedNodes>
+      <ExpandedNode Row="0" />
+      <ExpandedNode Row="1" />
+      <ExpandedNode Row="2" />
+      <ExpandedNode Row="8" />
+      <ExpandedNode Row="9" />
+      <ExpandedNode Row="11" />
+      <ExpandedNode Row="12" />
+      <ExpandedNode Row="15" />
+      <ExpandedNode Row="16" />
+      <ExpandedNode Row="32" />
+      <ExpandedNode Row="34" />
+      <ExpandedNode Row="41" />
+      <ExpandedNode Row="45" />
+      <ExpandedNode Row="54" />
+      <ExpandedNode Row="63" />
+      <ExpandedNode Row="72" />
+      <ExpandedNode Row="79" />
+      <ExpandedNode Row="87" />
+      <ExpandedNode Row="91" />
+      <ExpandedNode Row="92" />
+      <ExpandedNode Row="95" />
+      <ExpandedNode Row="100" />
+      <ExpandedNode Row="101" />
+      <ExpandedNode Row="102" />
+      <ExpandedNode Row="105" />
+      <ExpandedNode Row="108" />
+      <ExpandedNode Row="111" />
+      <ExpandedNode Row="114" />
+      <ExpandedNode Row="117" />
+      <ExpandedNode Row="119" />
+      <ExpandedNode Row="120" />
+      <ExpandedNode Row="135" />
+      <ExpandedNode Row="136" />
+      <ExpandedNode Row="143" />
+      <ExpandedNode Row="144" />
+      <ExpandedNode Row="145" />
+    </ExpandedNodes>
+    <SelectedNodes />
+    <ZoomIndices />
+  </TreeView>
+  <TreeView ID="D:\Dizertacka\2Axis pneu stand PLC\pneuStand\Logical\Library\Constants.var" EditColumn="0" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
+    <Columns>
+      <Column Index="0" Width="200" Position="0" />
+      <Column Index="1" Width="100" Position="1" />
+      <Column Index="2" Width="0" Position="2" />
+      <Column Index="3" Width="98" Position="3" />
+      <Column Index="4" Width="0" Position="4" />
+      <Column Index="5" Width="112" Position="5" />
+      <Column Index="6" Width="100" Position="6" />
+      <Column Index="7" Width="200" Position="7" />
+      <Column Index="8" Width="0" Position="8" />
+      <Column Index="9" Width="0" Position="9" />
+      <Column Index="10" Width="0" Position="10" />
+    </Columns>
+    <ExpandedNodes />
+    <SelectedNodes />
+    <ZoomIndices />
+  </TreeView>
+  <TreeView ID="D:\Dizertacka\2Axis pneu stand PLC\pneuStand\Logical\Polohovac_osi.var" EditColumn="6" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
+    <Columns>
+      <Column Index="0" Width="200" Position="0" />
+      <Column Index="1" Width="100" Position="1" />
+      <Column Index="2" Width="0" Position="2" />
+      <Column Index="3" Width="98" Position="3" />
+      <Column Index="4" Width="72" Position="4" />
+      <Column Index="5" Width="112" Position="5" />
+      <Column Index="6" Width="100" Position="6" />
+      <Column Index="7" Width="200" Position="7" />
+      <Column Index="8" Width="0" Position="8" />
+      <Column Index="9" Width="0" Position="9" />
+      <Column Index="10" Width="0" Position="10" />
+    </Columns>
+    <ExpandedNodes />
+    <SelectedNodes>
+      <SelectedNode Row="3" />
+    </SelectedNodes>
+    <ZoomIndices />
+  </TreeView>
+  <TreeView ID="D:\Dizertacka\2Axis pneu stand PLC\pneuStand\Logical\Source\Serva\Variables.var" EditColumn="1" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
+    <Columns>
+      <Column Index="0" Width="200" Position="0" />
+      <Column Index="1" Width="100" Position="1" />
+      <Column Index="2" Width="110" Position="2" />
+      <Column Index="3" Width="98" Position="3" />
+      <Column Index="4" Width="72" Position="4" />
+      <Column Index="5" Width="112" Position="5" />
+      <Column Index="6" Width="100" Position="6" />
+      <Column Index="7" Width="200" Position="7" />
+      <Column Index="8" Width="0" Position="8" />
+      <Column Index="9" Width="0" Position="9" />
+      <Column Index="10" Width="0" Position="10" />
+    </Columns>
+    <ExpandedNodes />
+    <SelectedNodes>
+      <SelectedNode Row="0" />
+    </SelectedNodes>
+    <ZoomIndices />
+  </TreeView>
+</State>
