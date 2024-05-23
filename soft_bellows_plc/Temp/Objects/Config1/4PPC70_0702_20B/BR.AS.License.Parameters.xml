@@ -5,10 +5,10 @@
     <ConnectionParameters>/COMT=2500 /RT=1000 /AM=* /SDT=5 /DAIP=192.168.1.100 /REPO=11159 /ANSL=1 /PT=11169 </ConnectionParameters>
   </Connection>
   <AsProject>
-    <ApjFullFileName>D:\Projekty\pneu_aktuatory\plc\peristhaltic_selecter\selecter.apj</ApjFullFileName>
-    <ProjectName>selecter</ProjectName>
+    <ApjFullFileName>C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\basic_pneu_stand.apj</ApjFullFileName>
+    <ProjectName>basic_pneu_stand</ProjectName>
     <ActiveConfigurationName>Config1</ActiveConfigurationName>
-    <LicenseDataFolder>D:\Projekty\pneu_aktuatory\plc\peristhaltic_selecter\Temp\Objects\Config1\4PPC70_0702_20B</LicenseDataFolder>
+    <LicenseDataFolder>C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Temp\Objects\Config1\4PPC70_0702_20B</LicenseDataFolder>
   </AsProject>
   <General>
     <DeleteParameterFile>false</DeleteParameterFile>

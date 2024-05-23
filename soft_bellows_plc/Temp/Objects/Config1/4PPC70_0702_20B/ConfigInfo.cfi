@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version="4.9.2.46"?>
+<?AutomationStudio Version="4.12.2.93"?>
 <ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
   <TaskClass
     Name="Cyclic#1" />
@@ -12,18 +12,18 @@
     <Task
       Name="Program1"
       Disable="false"
-      Source="Riadenie.Program"
+      Source="Source.Program"
       Language="IEC">
       <InternalFile
-        Path="D:\Projekty\pneu_aktuatory\plc\peristhaltic_selecter\Temp\Objects\Config1\4PPC70_0702_20B\Program1\Cyclic.st.var" />
+        Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Temp\Objects\Config1\4PPC70_0702_20B\Program1\Cyclic.st.var" />
       <InternalFile
-        Path="D:\Projekty\pneu_aktuatory\plc\peristhaltic_selecter\Temp\Objects\Config1\4PPC70_0702_20B\Program1\Init.st.var" />
+        Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Temp\Objects\Config1\4PPC70_0702_20B\Program1\Init.st.var" />
       <InternalFile
-        Path="D:\Projekty\pneu_aktuatory\plc\peristhaltic_selecter\Temp\Objects\Config1\4PPC70_0702_20B\Program1\Exit.st.var" />
+        Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Temp\Objects\Config1\4PPC70_0702_20B\Program1\Exit.st.var" />
       <File
-        Path="D:\Projekty\pneu_aktuatory\plc\peristhaltic_selecter\Logical\Riadenie\Program\Types.typ" />
+        Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Source\Program\Types.typ" />
       <File
-        Path="D:\Projekty\pneu_aktuatory\plc\peristhaltic_selecter\Logical\Riadenie\Program\Variables.var" />
+        Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Source\Program\Variables.var" />
     </Task>
   </TaskClass>
   <TaskClass

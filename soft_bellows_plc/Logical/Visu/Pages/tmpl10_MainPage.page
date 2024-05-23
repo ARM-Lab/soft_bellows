@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.9.2.46"?>
+<?AutomationStudio Version="4.12.2.93"?>
 <Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="tmpl10_MainPage">
   <Property Name="Description" Value="Template main page - basic machine interface"/>
   <Property Name="Height" Value="480"/>
@@ -95,7 +95,7 @@
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_11]"/>
           <Property Name="Height" Value="89"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
-          <Property Name="Left" Value="251"/>
+          <Property Name="Left" Value="595"/>
           <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
           <Property Name="PressedTextGroup" Value="Source[embedded].TextGroup"/>
           <Property Name="PressedTextIndex" Value="57"/>
@@ -106,7 +106,7 @@
           <Property Name="TextIndexDatapoint" Value="None"/>
           <Property Name="TextSimulationValue" Value="0"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="14"/>
+          <Property Name="Top" Value="17"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_11]"/>
           <Property Name="Width" Value="179"/>
         </Control>
@@ -118,7 +118,7 @@
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_12]"/>
           <Property Name="Height" Value="89"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
-          <Property Name="Left" Value="252"/>
+          <Property Name="Left" Value="593"/>
           <Property Name="PressedBitmapGroup" Value="None"/>
           <Property Name="PressedBitmapSource" Value="MultipleBitmaps"/>
           <Property Name="PressedTextGroup" Value="Source[embedded].TextGroup"/>
@@ -130,7 +130,7 @@
           <Property Name="TextIndexDatapoint" Value="None"/>
           <Property Name="TextSimulationValue" Value="0"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="107"/>
+          <Property Name="Top" Value="118"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_12]"/>
           <Property Name="Width" Value="179"/>
         </Control>
@@ -142,7 +142,7 @@
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_13]"/>
           <Property Name="Height" Value="89"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
-          <Property Name="Left" Value="251"/>
+          <Property Name="Left" Value="592"/>
           <Property Name="PressedBitmapGroup" Value="None"/>
           <Property Name="PressedBitmapSource" Value="MultipleBitmaps"/>
           <Property Name="PressedTextGroup" Value="Source[embedded].TextGroup"/>
@@ -154,7 +154,7 @@
           <Property Name="TextIndexDatapoint" Value="None"/>
           <Property Name="TextSimulationValue" Value="0"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="202"/>
+          <Property Name="Top" Value="219"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_13]"/>
           <Property Name="Width" Value="179"/>
         </Control>
@@ -166,7 +166,7 @@
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_14]"/>
           <Property Name="Height" Value="89"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
-          <Property Name="Left" Value="252"/>
+          <Property Name="Left" Value="590"/>
           <Property Name="PressedBitmapGroup" Value="None"/>
           <Property Name="PressedBitmapSource" Value="MultipleBitmaps"/>
           <Property Name="PressedTextGroup" Value="Source[embedded].TextGroup"/>
@@ -178,9 +178,217 @@
           <Property Name="TextIndexDatapoint" Value="None"/>
           <Property Name="TextSimulationValue" Value="0"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="294"/>
+          <Property Name="Top" Value="317"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_14]"/>
           <Property Name="Width" Value="179"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Input" Value="True"/>
+          <Property Name="InputCancel" Value="Lost Focus"/>
+          <Property Name="InputComma" Value="Explicit"/>
+          <Property Name="InputConfirm" Value="Enter"/>
+          <Property Name="InputMinus" Value="Normal"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputStart" Value="Any Key"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="InputUpDown" Value="Disabled"/>
+          <Property Name="Left" Value="254"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="49"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.display.in_reg[0]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="87"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_2">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Input" Value="True"/>
+          <Property Name="InputCancel" Value="Lost Focus"/>
+          <Property Name="InputComma" Value="Explicit"/>
+          <Property Name="InputConfirm" Value="Enter"/>
+          <Property Name="InputMinus" Value="Normal"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputStart" Value="Any Key"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="InputUpDown" Value="Disabled"/>
+          <Property Name="Left" Value="352"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="49"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.display.in_reg[1]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="87"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_3">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Input" Value="True"/>
+          <Property Name="InputCancel" Value="Lost Focus"/>
+          <Property Name="InputComma" Value="Explicit"/>
+          <Property Name="InputConfirm" Value="Enter"/>
+          <Property Name="InputMinus" Value="Normal"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputStart" Value="Any Key"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="InputUpDown" Value="Disabled"/>
+          <Property Name="Left" Value="253"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="89"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.display.in_reg[2]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="87"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_4">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Input" Value="True"/>
+          <Property Name="InputCancel" Value="Lost Focus"/>
+          <Property Name="InputComma" Value="Explicit"/>
+          <Property Name="InputConfirm" Value="Enter"/>
+          <Property Name="InputMinus" Value="Normal"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputStart" Value="Any Key"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="InputUpDown" Value="Disabled"/>
+          <Property Name="Left" Value="354"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="88"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.display.in_reg[3]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="87"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_5">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Input" Value="True"/>
+          <Property Name="InputCancel" Value="Lost Focus"/>
+          <Property Name="InputComma" Value="Explicit"/>
+          <Property Name="InputConfirm" Value="Enter"/>
+          <Property Name="InputMinus" Value="Normal"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputStart" Value="Any Key"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="InputUpDown" Value="Disabled"/>
+          <Property Name="Left" Value="253"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="127"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.display.in_reg[4]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="87"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_6">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Input" Value="True"/>
+          <Property Name="InputCancel" Value="Lost Focus"/>
+          <Property Name="InputComma" Value="Explicit"/>
+          <Property Name="InputConfirm" Value="Enter"/>
+          <Property Name="InputMinus" Value="Normal"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputStart" Value="Any Key"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="InputUpDown" Value="Disabled"/>
+          <Property Name="Left" Value="353"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="129"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.display.in_reg[5]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="87"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_7">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Input" Value="True"/>
+          <Property Name="InputCancel" Value="Lost Focus"/>
+          <Property Name="InputComma" Value="Explicit"/>
+          <Property Name="InputConfirm" Value="Enter"/>
+          <Property Name="InputMinus" Value="Normal"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputStart" Value="Any Key"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="InputUpDown" Value="Disabled"/>
+          <Property Name="Left" Value="254"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="166"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.display.in_reg[6]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="87"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_8">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Input" Value="True"/>
+          <Property Name="InputCancel" Value="Lost Focus"/>
+          <Property Name="InputComma" Value="Explicit"/>
+          <Property Name="InputConfirm" Value="Enter"/>
+          <Property Name="InputMinus" Value="Normal"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputStart" Value="Any Key"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="InputUpDown" Value="Disabled"/>
+          <Property Name="Left" Value="353"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="167"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.display.in_reg[7]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="87"/>
         </Control>
       </Controls>
       <KeyMapping>
@@ -196,7 +404,7 @@
               <Property Name="Name" Value="Action_0"/>
               <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.zapni]"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.tlacidla.zapni]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
@@ -212,7 +420,7 @@
               <Property Name="Name" Value="Action_0"/>
               <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.ventil_a1]"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.tlacidla.ventil[0]]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
@@ -228,7 +436,7 @@
               <Property Name="Name" Value="Action_0"/>
               <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.ventil_b2]"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.tlacidla.ventil[1]]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
@@ -244,7 +452,7 @@
               <Property Name="Name" Value="Action_0"/>
               <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.ventil_c3]"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.tlacidla.ventil[2]]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
@@ -260,13 +468,71 @@
               <Property Name="Name" Value="Action_0"/>
               <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.ventil_d4]"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.tlacidla.ventil[3]]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
       </KeyMapping>
     </Layer>
   </Layers>
-  <MovementOrder/>
-  <TabSequence/>
+  <MovementOrder>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_1]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_3]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_2]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_2]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_7]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_2]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_4]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_8]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_3]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_5]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_4]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_4]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_4]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_6]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_3]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_3]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_2]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_5]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_7]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_6]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_6]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_3]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_6]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_8]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_5]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_5]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_4]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_7]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_8]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_8]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_5]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_8]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_2]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_7]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_7]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_6]"/>
+    </MovementEntry>
+  </MovementOrder>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+    <TabSeqItem Index="1" Value="Source[embedded].Layer[Default].Control[Numeric_4]"/>
+    <TabSeqItem Index="2" Value="Source[embedded].Layer[Default].Control[Numeric_3]"/>
+    <TabSeqItem Index="3" Value="Source[embedded].Layer[Default].Control[Numeric_2]"/>
+    <TabSeqItem Index="4" Value="Source[embedded].Layer[Default].Control[Numeric_6]"/>
+    <TabSeqItem Index="5" Value="Source[embedded].Layer[Default].Control[Numeric_5]"/>
+    <TabSeqItem Index="6" Value="Source[embedded].Layer[Default].Control[Numeric_7]"/>
+    <TabSeqItem Index="7" Value="Source[embedded].Layer[Default].Control[Numeric_8]"/>
+  </TabSequence>
 </Page>

@@ -5,7 +5,9 @@
   <TaskClass Name="Cyclic#2" />
   <TaskClass Name="Cyclic#3" />
   <TaskClass Name="Cyclic#4">
-    <Task Name="Program1" Source="Riadenie.Program.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="Program1" Source="Source.Program.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="Server" Source="Source.UDP.Server.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="Client" Source="Source.UDP.Client.prg" Memory="UserROM" Language="IEC" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#5" />
   <TaskClass Name="Cyclic#6" />
@@ -14,9 +16,6 @@
   <DataObjects>
     <DataObject Name="Acp10sys" Source="" Memory="UserROM" Language="Binary" />
   </DataObjects>
-  <NcDataObjects>
-    <NcDataObject Name="acp10etxen" Source="acp10etxen.dob" Memory="UserROM" Language="Ett" />
-  </NcDataObjects>
   <VcDataObjects>
     <VcDataObject Name="Visu" Source="Visu.dob" Memory="UserROM" Language="Vc" WarningLevel="2" />
   </VcDataObjects>
@@ -83,7 +82,6 @@
     <LibraryObject Name="pomoc_lib" Source="Libraries.pomoc_lib.lby" Memory="UserROM" Language="ANSIC" Debugging="true" />
     <LibraryObject Name="brsystem" Source="Libraries.brsystem.lby" Memory="UserROM" Language="binary" Debugging="true" />
     <LibraryObject Name="runtime" Source="Libraries.runtime.lby" Memory="UserROM" Language="binary" Debugging="true" />
-    <LibraryObject Name="Library" Source="Library.lby" Memory="UserROM" Language="IEC" Debugging="true" />
     <LibraryObject Name="MTLinAlg" Source="Libraries.MTLinAlg.lby" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="AsTCP" Source="Libraries.AsTCP.lby" Memory="UserROM" Language="Binary" Debugging="false" />
     <LibraryObject Name="AsArLog" Source="Libraries.AsArLog.lby" Memory="UserROM" Language="Binary" Debugging="false" />
@@ -95,5 +93,6 @@
     <LibraryObject Name="asieccon" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="vcresman" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="dataobj" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="AsUDP" Source="Libraries.AsUDP.lby" Memory="UserROM" Language="binary" Debugging="true" />
   </Libraries>
 </SwConfiguration>

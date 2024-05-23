@@ -4,19 +4,249 @@
     <BuildReason>Rule is forced.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\arconfig.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\4ppc70_0702_20b\iomap.iom" differs.
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\ashwac.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\traj_lib\generator_trajektorie_test.c.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\traj_lib\traj.c.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\pomoc_lib\cyklovac_bb_data.c.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\pomoc_lib\cyklovac_b.c.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\traj_lib\rtgetnan.c.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\pomoc_lib\cyklovac_bb.c.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\traj_lib\rt_nonfinite.c.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\traj_lib\rtgetinf.c.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\program1\cyclic.st.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\program1\init.st.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\program1\exit.st.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\program1\_bur_pvdef.st.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\program1\a.out">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\regulatory\ff_pid_r_t.c.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\regulatory\reg_ff_pi_pl_regr_stiff.c.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\regulatory\reg_ff_pi_pl_regr_stiff_data.c.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\regulatory\pid_c.c.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\regulatory\pid_co.c.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\regulatory\nonl_p.c.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\pomoc_lib\a.out">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\traj_lib\a.out">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\program1\program1.ox">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\regulatory\regulator_nelin_p.c.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\regulatory\ff_pid_r.c.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\regulatory\regulator_ff_pi_plane_regress.c.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\regulatory\ff_pid.c.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\regulatory\regulator_ff_pi.c.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\regulatory\regulator_ff_pi_data.c.o">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\udbdef.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\tcdata\tcdata.imx">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\acp10man.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\acp10man\sg4\ia32\acp10man.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\acp10par.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\acp10par\sg4\ia32\acp10par.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\ncglobal.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\ncglobal\sg4\ia32\ncglobal.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\acp10_mc.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\acp10_mc\sg4\ia32\acp10_mc.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\sys_lib.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\brsystem.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\runtime.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\mtlinalg.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\mtlinalg\sg4\ia32\mtlinalg.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\astcp.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\asarlog.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\program1.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\pomoc_lib\pomoc_lib.ox">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\pomoc_lib.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\traj_lib\traj_lib.ox">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\traj_lib.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\regulatory\a.out">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\regulatory\regulatory.ox">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\regulatory.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\tcdata\tcdata.s18d">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\tcdata\tcdata.imx" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\visu.br">
     <BuildReason>Rule is forced.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\role.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\user.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\fwrules.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\iomap.br">
-    <BuildReason>Target "iomap.br" does not exist</BuildReason>
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\sysconf.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\tcdata.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\tcdata\tcdata.s18d" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\asfw.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_20b\ashwd.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
   </Rule>
   <Rule ID="#cpu_tp.mak">
     <BuildReason>Rule is forced.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\binaries\config1\4ppc70_0702_20b\transfer.lst">
-    <BuildReason>Target "transfer.lst" does not exist</BuildReason>
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
   </Rule>
 </BuildReasons>

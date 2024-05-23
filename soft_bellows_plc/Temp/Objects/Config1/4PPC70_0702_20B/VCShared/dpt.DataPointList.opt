@@ -1,9 +1,9 @@
 <BuildOptions>
   <BuildOption>
-    <SourceFile Value="D:/Projekty/pneu_aktuatory/plc/peristhaltic_selecter/Physical/Config1/4PPC70_0702_20B/Cpu.sw" />
+    <SourceFile Value="C:/Users/km_2/Desktop/PLC Projekty/soft_bellows_plc/Physical/Config1/4PPC70_0702_20B/Cpu.sw" />
     <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
     <Xml>
-      <Task Name="Program1" Source="Riadenie.Program.prg" />
+      <Task Name="Program1" Source="Source.Program.prg" />
     </Xml>
   </BuildOption>
 </BuildOptions>

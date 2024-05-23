@@ -68,10 +68,10 @@
     <Parameter ID="StatusInfo" Value="on" />
     <Parameter ID="PowerInfo" Value="off" />
   </Module>
-  <Module ID="IF1.ST1.IF1.ST2" Hardware="X20cDO9322">
-    <Parameter ID="HardwareModuleName" Value="X20cDO9322" />
+  <Module ID="IF1.ST1.IF1.ST2" Hardware="X20DO9322">
+    <Parameter ID="HardwareModuleName" Value="X20DO9322" />
   </Module>
-  <Module ID="IF1.ST1.IF1.ST2.IO" Hardware="X20cDO9322">
+  <Module ID="IF1.ST1.IF1.ST2.IO" Hardware="X20DO9322">
     <Parameter ID="FunctionModel" Value="Standard" />
     <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
     <Parameter ID="Supervision" Value="off" />
@@ -103,43 +103,29 @@
     <Parameter ID="StatusInfo" Value="on" />
     <Parameter ID="DigitalOutputsPacked" Value="off" />
   </Module>
-  <Module ID="IF1.ST2" Hardware="8AC114.60-2">
-    <Parameter ID="Mode" Value="CN" />
-    <Parameter ID="ResponseTimeout" Value="25" Type="UDINT" />
-    <Parameter ID="MuxNetworkSlot" Value="0" Type="UDINT" />
-    <Parameter ID="MinimalInputLatency" Value="off" />
-    <Parameter ID="EPL_Chained" Value="off" />
-    <Parameter ID="FunctionModel" Value="SingleAxis" />
-    <Parameter ID="HardwareModuleName" Value="8V1010.50-2" />
-    <Parameter ID="OrderNumber" Value="8V1010.50-2" />
+  <Module ID="IF1.ST1.IF1.ST5" Hardware="X20AO4622">
+    <Parameter ID="HardwareModuleName" Value="X20AO4622" />
   </Module>
-  <Module ID="IF1.ST2.M1" Hardware="8LVA13.R0030D000-0">
-    <Parameter ID="HardwareModuleName" Value="8LVA13.R0030D000-0" />
+  <Module ID="IF1.ST1.IF1.ST5.IO" Hardware="X20AO4622">
+    <Parameter ID="FunctionModel" Value="FunctionModel001" />
+    <Parameter ID="FunctionModelNumber" Value="1" Type="USINT" />
+    <Parameter ID="Supervision" Value="on" />
+    <Parameter ID="ChannelType01" Value="-10V to +10V" />
+    <Parameter ID="ChannelType02" Value="-10V to +10V" />
+    <Parameter ID="ChannelType03" Value="-10V to +10V" />
+    <Parameter ID="ChannelType04" Value="-10V to +10V" />
   </Module>
-  <Module ID="IF1.ST2.SS1" Hardware="8AC114.60-2c">
-    <Parameter ID="HardwareModuleName" Value="8AC114.60-2" />
+  <Module ID="IF1.ST1.IF1.ST6" Hardware="X20AO4622">
+    <Parameter ID="HardwareModuleName" Value="X20AO4622a" />
   </Module>
-  <Module ID="IF1.ST2.SS2" Hardware="8AC122.60-3">
-    <Parameter ID="HardwareModuleName" Value="8AC122.60-3" />
-  </Module>
-  <Module ID="IF1.ST3" Hardware="8AC114.60-2">
-    <Parameter ID="Mode" Value="CN" />
-    <Parameter ID="ResponseTimeout" Value="25" Type="UDINT" />
-    <Parameter ID="MuxNetworkSlot" Value="0" Type="UDINT" />
-    <Parameter ID="MinimalInputLatency" Value="off" />
-    <Parameter ID="EPL_Chained" Value="off" />
-    <Parameter ID="FunctionModel" Value="SingleAxis" />
-    <Parameter ID="HardwareModuleName" Value="8V1010.50-2a" />
-    <Parameter ID="OrderNumber" Value="8V1010.50-2" />
-  </Module>
-  <Module ID="IF1.ST3.M1" Hardware="8LVA13.R0030D000-0">
-    <Parameter ID="HardwareModuleName" Value="8LVA13.R0030D000-0a" />
-  </Module>
-  <Module ID="IF1.ST3.SS1" Hardware="8AC114.60-2c">
-    <Parameter ID="HardwareModuleName" Value="8AC114.60-2a" />
-  </Module>
-  <Module ID="IF1.ST3.SS2" Hardware="8AC122.60-3">
-    <Parameter ID="HardwareModuleName" Value="8AC122.60-3a" />
+  <Module ID="IF1.ST1.IF1.ST6.IO" Hardware="X20AO4622">
+    <Parameter ID="FunctionModel" Value="FunctionModel001" />
+    <Parameter ID="FunctionModelNumber" Value="1" Type="USINT" />
+    <Parameter ID="Supervision" Value="on" />
+    <Parameter ID="ChannelType01" Value="-10V to +10V" />
+    <Parameter ID="ChannelType02" Value="-10V to +10V" />
+    <Parameter ID="ChannelType03" Value="-10V to +10V" />
+    <Parameter ID="ChannelType04" Value="-10V to +10V" />
   </Module>
   <Module ID="IF2" Hardware="4PPC70.0702-20B">
     <Parameter ID="ActivateOSAFT" Value="0" />

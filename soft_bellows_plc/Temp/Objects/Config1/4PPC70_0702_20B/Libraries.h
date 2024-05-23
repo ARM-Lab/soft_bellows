@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _LIBRARIES_20240110142031_
-#define _LIBRARIES_20240110142031_
+#ifndef _LIBRARIES_20240523101922_
+#define _LIBRARIES_20240523101922_
 
 __asm__(".section \".plc\"");
 
@@ -51,9 +51,6 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/pomoc_lib/pomoc_lib.var\\\" scop
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/regulatory/regulatory.fun\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/regulatory/regulatory.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/regulatory/regulatory.var\\\" scope \\\"global\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"Logical/Library/Types.typ\\\" scope \\\"global\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"Logical/Library/Constants.var\\\" scope \\\"global\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"Logical/Library/Library.fun\\\" scope \\\"global\\\"\\n\"");
 
 /* Exported library functions and function blocks */
 #ifdef _OPERATOR_EXPORT
@@ -782,14 +779,9 @@ __asm__(".ascii \"iecfile \\\"Logical/Library/Library.fun\\\" scope \\\"global\\
 	__asm__(".ascii \"plcexport \\\"FF_PID_r\\\" FUB\\n\"");
 	__asm__(".ascii \"plcexport \\\"FF_PID\\\" FUB\\n\"");
 #endif
-#ifdef _LIBRARY_EXPORT
-	__asm__(".ascii \"plcexport \\\"suma\\\" FUB\\n\"");
-	__asm__(".ascii \"plcexport \\\"transf_angle2dest\\\" FUB\\n\"");
-	__asm__(".ascii \"plcexport \\\"Sin_signal\\\" FUB\\n\"");
-#endif
 
 __asm__(".previous");
 
 
-#endif /* _LIBRARIES_20240110142031_ */
+#endif /* _LIBRARIES_20240523101922_ */
 
