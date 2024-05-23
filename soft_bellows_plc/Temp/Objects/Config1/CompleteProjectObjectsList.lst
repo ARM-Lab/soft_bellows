@@ -10,19 +10,19 @@
     Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Global.typ"
     LogicalPath="Global.typ"
     Type="File"
-    LastWriteTime="133609249548490765"
+    LastWriteTime="133609352751171458"
     Private="false" />
   <Object
     Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Global.var"
     LogicalPath="Global.var"
     Type="File"
-    LastWriteTime="133609243917589696"
+    LastWriteTime="133609336320243662"
     Private="false" />
   <Object
     Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Libraries\Package.pkg"
     LogicalPath="Libraries"
     Type="Package"
-    LastWriteTime="133609243917920687" />
+    LastWriteTime="133609339665881387" />
   <Object
     Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Libraries\operator\binary.lby"
     LogicalPath="Libraries.operator"
@@ -776,10 +776,79 @@
     LastWriteTime="133609243932009145"
     Private="false" />
   <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Libraries\AsUDP\binary.lby"
+    LogicalPath="Libraries.AsUDP"
+    Type="Library"
+    LastWriteTime="133609261832658273" />
+  <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Libraries\AsUDP\AsUDP.fun"
+    LogicalPath="Libraries.AsUDP.AsUDP.fun"
+    Type="File"
+    LastWriteTime="133609261832658273"
+    Private="false" />
+  <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Libraries\AsUDP\AsUDP.typ"
+    LogicalPath="Libraries.AsUDP.AsUDP.typ"
+    Type="File"
+    LastWriteTime="133609261832658273"
+    Private="false" />
+  <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Libraries\AsUDP\AsUDP.var"
+    LogicalPath="Libraries.AsUDP.AsUDP.var"
+    Type="File"
+    LastWriteTime="133609261832658273"
+    Private="false" />
+  <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Libraries\asstring\binary.lby"
+    LogicalPath="Libraries.asstring"
+    Type="Library"
+    LastWriteTime="133609339304059351" />
+  <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Libraries\asstring\asstring.fun"
+    LogicalPath="Libraries.asstring.asstring.fun"
+    Type="File"
+    LastWriteTime="133609339304059351"
+    Private="false" />
+  <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Libraries\asstring\asstring.typ"
+    LogicalPath="Libraries.asstring.asstring.typ"
+    Type="File"
+    LastWriteTime="133609339304059351"
+    Private="false" />
+  <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Libraries\asstring\asstring.var"
+    LogicalPath="Libraries.asstring.asstring.var"
+    Type="File"
+    LastWriteTime="133609339304059351"
+    Private="false" />
+  <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Libraries\standard\binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="133609339665881387" />
+  <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="133609339665881387"
+    Private="false" />
+  <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Libraries\standard\standard.typ"
+    LogicalPath="Libraries.standard.standard.typ"
+    Type="File"
+    LastWriteTime="133609339665881387"
+    Private="false" />
+  <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Libraries\standard\standard.var"
+    LogicalPath="Libraries.standard.standard.var"
+    Type="File"
+    LastWriteTime="133609339665881387"
+    Private="false" />
+  <Object
     Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Source\Package.pkg"
     LogicalPath="Source"
     Type="Package"
-    LastWriteTime="133609253440199006" />
+    LastWriteTime="133609262161863052" />
   <Object
     Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Source\Program\IEC.prg"
     LogicalPath="Source.Program"
@@ -816,6 +885,69 @@
     LastWriteTime="133609253440199006"
     Private="true" />
   <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Source\UDP\Package.pkg"
+    LogicalPath="Source.UDP"
+    Type="Package"
+    LastWriteTime="133609261826201684" />
+  <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Source\UDP\LibAsUDP1_ST.typ"
+    LogicalPath="Source.UDP.LibAsUDP1_ST.typ"
+    Type="File"
+    LastWriteTime="133609261826136633"
+    Private="false" />
+  <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Source\UDP\LibAsUDP1_ST.var"
+    LogicalPath="Source.UDP.LibAsUDP1_ST.var"
+    Type="File"
+    LastWriteTime="133609261826136633"
+    Private="false" />
+  <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Source\UDP\Server\IEC.prg"
+    LogicalPath="Source.UDP.Server"
+    Type="Program"
+    LastWriteTime="133609262212718794" />
+  <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Source\UDP\Server\Server.st"
+    LogicalPath="Source.UDP.Server.Server.st"
+    Type="File"
+    LastWriteTime="133609384690879755"
+    Private="false" />
+  <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Source\UDP\Server\Server.typ"
+    LogicalPath="Source.UDP.Server.Server.typ"
+    Type="File"
+    LastWriteTime="133609351924323727"
+    Private="true" />
+  <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Source\UDP\Server\Server.var"
+    LogicalPath="Source.UDP.Server.Server.var"
+    Type="File"
+    LastWriteTime="133609345861569105"
+    Private="true" />
+  <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Source\UDP\Client\IEC.prg"
+    LogicalPath="Source.UDP.Client"
+    Type="Program"
+    LastWriteTime="133609262234284763" />
+  <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Source\UDP\Client\Client.st"
+    LogicalPath="Source.UDP.Client.Client.st"
+    Type="File"
+    LastWriteTime="133609384383162378"
+    Private="false" />
+  <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Source\UDP\Client\Client.typ"
+    LogicalPath="Source.UDP.Client.Client.typ"
+    Type="File"
+    LastWriteTime="133609261826201684"
+    Private="true" />
+  <Object
+    Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Source\UDP\Client\Client.var"
+    LogicalPath="Source.UDP.Client.Client.var"
+    Type="File"
+    LastWriteTime="133609261826201684"
+    Private="true" />
+  <Object
     Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Logical\Visu\Vc.dob"
     LogicalPath="Visu"
     Type="DataObject"
@@ -847,12 +979,12 @@
     Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Physical\Config1\4PPC70_0702_20B\Cpu.pkg"
     LogicalPath="Config1.4PPC70_0702_20B"
     Type="Cpu"
-    LastWriteTime="133609259268381815" />
+    LastWriteTime="133609384517231923" />
   <Object
     Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Physical\Config1\4PPC70_0702_20B\Cpu.sw"
     LogicalPath="Config1.4PPC70_0702_20B.Cpu.sw"
     Type="File"
-    LastWriteTime="133609259437217447"
+    LastWriteTime="133609339666353961"
     Private="false" />
   <Object
     Path="C:\Users\km_2\Desktop\PLC Projekty\soft_bellows_plc\Physical\Config1\4PPC70_0702_20B\Cpu.per"

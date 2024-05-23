@@ -19,6 +19,6 @@ TYPE
 		UdpRecv_0 : UdpRecv; (*AsUDP.UdpRecv FUB*)
 		UdpDisconnect_0 : UdpDisconnect; (*AsUDP.UdpDisconnect FUB*)
 		UdpClose_0 : UdpClose; (*AsUDP.UdpClose FUB*)
-		data_buffer : ARRAY[0..100] OF UDINT; (*Data buffer ( receive and send )*)
+		data_buffer : STRING[256]; (*Data buffer ( receive and send )*)
 	END_STRUCT;
 END_TYPE

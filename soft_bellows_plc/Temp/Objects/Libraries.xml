@@ -32,6 +32,12 @@
     UseAsStatic="false"
     Version="" />
   <Library
+    Name="asstring"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
     Name="AsTCP"
     IsDeployed="true"
     IsStatic="false"
@@ -40,6 +46,12 @@
   <Library
     Name="astime"
     IsDeployed="false"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsUDP"
+    IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
     Version="" />
@@ -81,6 +93,12 @@
     Version="1.00.0" />
   <Library
     Name="runtime"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="standard"
     IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"

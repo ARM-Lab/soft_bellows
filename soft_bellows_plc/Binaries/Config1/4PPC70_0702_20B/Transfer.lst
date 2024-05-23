@@ -3,6 +3,8 @@
 <Transfer xmlns="http://br-automation.co.at/AS/Transfer">
   <OperatingSystem Version="B4.93"/>
   <Hardware Target="SG4"/>
+  <Operation Delete="Client.br"/>
+  <Operation Delete="Server.br"/>
   <Operation Delete="Program1.br"/>
   <Operation Delete="Visu.br"/>
   <Operation Delete="AsArLog.br"/>
@@ -34,6 +36,7 @@
   <Operation Delete="vccline.br"/>
   <Operation Delete="vccbmp.br"/>
   <Operation Delete="vccdt.br"/>
+  <Operation Delete="AsUDP.br"/>
   <Operation Delete="asieccon.br"/>
   <Operation Delete="vcshared.br"/>
   <Operation Delete="arial.br"/>
@@ -85,6 +88,8 @@
   <Operation Download="MTLinAlg.br" Memory="UserROM"/>
   <Operation Download="traj_lib.br" Memory="UserROM"/>
   <Operation Download="regulatory.br" Memory="UserROM"/>
+  <Operation Download="asstring.br" Memory="UserROM"/>
+  <Operation Download="standard.br" Memory="UserROM"/>
   <Operation Download="vcgclass.br" Memory="UserROM"/>
   <Operation Download="dataobj.br" Memory="UserROM"/>
   <Operation Download="vccurl.br" Memory="UserROM"/>
@@ -96,6 +101,7 @@
   <Operation Download="arial.br" Memory="UserROM"/>
   <Operation Download="vcshared.br" Memory="UserROM"/>
   <Operation Download="asieccon.br" Memory="UserROM"/>
+  <Operation Download="AsUDP.br" Memory="UserROM"/>
   <Operation Download="vccdt.br" Memory="UserROM"/>
   <Operation Download="vccbmp.br" Memory="UserROM"/>
   <Operation Download="vccline.br" Memory="UserROM"/>
@@ -127,4 +133,6 @@
   <Operation Download="AsArLog.br" Memory="UserROM"/>
   <Operation Download="Visu.br" Memory="UserROM"/>
   <Operation Download="Program1.br" Memory="UserROM"/>
+  <Operation Download="Server.br" Memory="UserROM"/>
+  <Operation Download="Client.br" Memory="UserROM"/>
 </Transfer>

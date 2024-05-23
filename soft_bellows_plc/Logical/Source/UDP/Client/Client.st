@@ -31,7 +31,7 @@ PROGRAM _CYCLIC
 			END_IF
 			
 		1:	(* Send Data to the Server *)
-			Client.server_address := '127.0.0.1';	(* IP Address of the Server *)
+			Client.server_address := '192.168.1.506';	(* IP Address of the Server *)
 			Client.server_portnumber := 12050;	(* Port number of the Server *)
 			
 			Client.UdpSend_0.enable := 1;

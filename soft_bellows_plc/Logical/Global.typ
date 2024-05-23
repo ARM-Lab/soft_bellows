@@ -1,5 +1,14 @@
 
 TYPE
+	packetUDP : 	STRUCT 
+		comma : INT; (*Positions of comma in received packet*)
+		pStart : INT; (*Start of pressure values*)
+		packet_pressure : STRING[80]; (*Full received packet*)
+		length : INT; (*Length of full packet*)
+		pEnd : INT; (*End of pressure values*)
+		pressureString : ARRAY[0..7]OF STRING[8];
+		pressureAO : ARRAY[0..7]OF REAL;
+	END_STRUCT;
 	Analog_input : 	STRUCT 
 		AI_2 : INT;
 		AI_3 : INT;

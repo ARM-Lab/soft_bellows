@@ -3,5 +3,6 @@ VAR
 	tlacidla : buttons;
 	regulatory : regulators;
 	display : display_variables;
+	packet : packetUDP;
 	analog_input : Analog_input;
 END_VAR

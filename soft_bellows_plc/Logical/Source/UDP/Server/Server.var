@@ -10,4 +10,5 @@
  ********************************************************************)
 VAR
 	Server : Server_typ := (0); (*Data for Server Task*)
+	i : INT;
 END_VAR
