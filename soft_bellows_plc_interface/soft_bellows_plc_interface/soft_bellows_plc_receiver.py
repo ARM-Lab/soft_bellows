@@ -6,10 +6,10 @@ from soft_bellows_msgs.msg import SoftBellowsPressure
 from std_msgs.msg import String
 import re
 
-class PLC_interface(Node):
+class PLC_interface_receiver(Node):
     def __init__(self):
-        super().__init__("soft_bellows_plc_interface")
-        self.publisher = self.create_publisher(SoftBellowsPressure, '/soft_bellows_plc', 10)
+        super().__init__("soft_bellows_plc_receiver")
+        self.publisher = self.create_publisher(SoftBellowsPressure, '/soft_bellows/plc_receiver', 10)
         self.timer_ = self.create_timer(0.01, self.plc_receiver)
         self.get_logger().info("PLC listener started ...")
     
@@ -34,10 +34,10 @@ class PLC_interface(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = PLC_interface()
+    node = PLC_interface_receiver()
     rclpy.spin(node)
     rclpy.shutdown()
 
-    if __name__ == "__main":
-        main()
+if __name__ == "__main":
+    main()
     
