@@ -1,0 +1,5 @@
+VAR
+	measurement : measurement_parameters;
+	sensor : sensors;
+	valve : valves;
+END_VAR

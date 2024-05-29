@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Project xmlns="http://br-automation.co.at/AS/Project"><Active ID="0"/><Configuration Name="Config1"/><ConfigurationFiles xmlns="" ConfigurationName="Config1" ActiveConfigurationFile="\Logical\Source\Measurement\Cyclic.st"><ConfigurationFile Placement="\Logical\Source\Measurement\Cyclic.st,Source.Measurement,2,44,0,1,-1,-1,-1,-1,2,30,1546,733"/><ConfigurationFile Placement="\Logical\Visu\VCObject.vc,,0,44,0,1,-1,-1,-1,-1,2,30,1546,733"/><ConfigurationFile Placement="\Virtual\4PPC70_0702_20B.sw,,1,44,0,1,-1,-1,-1,-1,2,30,1546,733"/></ConfigurationFiles></Project>

@@ -1,0 +1,10 @@
+VAR_CONFIG
+	::valve.valve[0] AT %QW."X20AO4622".AnalogOutput01;
+	::valve.valve[1] AT %QW."X20AO4622".AnalogOutput02;
+	::valve.valve[2] AT %QW."X20AO4622".AnalogOutput03;
+	::valve.valve[3] AT %QW."X20AO4622".AnalogOutput04;
+	::sensor.bellow[0] AT %IW."X20AI4622a".AnalogInput01;
+	::sensor.bellow[1] AT %IW."X20AI4622a".AnalogInput02;
+	::sensor.bellow[2] AT %IW."X20AI4622a".AnalogInput03;
+	::sensor.bellow[3] AT %IW."X20AI4622a".AnalogInput04;
+END_VAR

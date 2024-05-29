@@ -1,0 +1,5 @@
+VAR
+	TON_0 : TON;
+	i : INT;
+	a : UINT;
+END_VAR

@@ -1,0 +1,9 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="C:/projects/icra2024_measurements/Physical/Config1/4PPC70_0702_20B/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="Measuremen" Source="Source.Measurement.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

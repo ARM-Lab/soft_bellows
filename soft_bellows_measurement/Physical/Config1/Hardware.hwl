@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="Config1.Hardware.hw" LastWriteTime="05/29/2024 09:03:50" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="4PPC70_0702_20B" Type="4PPC70.0702-20B" X="100" Y="100" />
+    <Module Name="X20BB80a" Type="X20BB80" X="238" Y="256" />
+    <Module Name="X20BM11a" Type="X20BM11" X="276" Y="256" />
+    <Module Name="X20DO9322" Type="X20DO9322" X="276" Y="256" />
+    <Module Name="X20TB12a" Type="X20TB12" X="276" Y="283" />
+    <Module Name="X20BM11b" Type="X20BM11" X="289" Y="256" />
+    <Module Name="X20AI4622" Type="X20AI4622" X="289" Y="256" />
+    <Module Name="X20TB12c" Type="X20TB12" X="289" Y="283" />
+    <Module Name="X20BM11c" Type="X20BM11" X="302" Y="256" />
+    <Module Name="X20AI4622a" Type="X20AI4622" X="302" Y="256" />
+    <Module Name="X20TB12d" Type="X20TB12" X="302" Y="283" />
+    <Module Name="X20BM11d" Type="X20BM11" X="315" Y="256" />
+    <Module Name="X20AO4622" Type="X20AO4622" X="315" Y="256" />
+    <Module Name="X20TB12e" Type="X20TB12" X="315" Y="283" />
+    <Module Name="X20BM11e" Type="X20BM11" X="328" Y="256" />
+    <Module Name="X20AO4622a" Type="X20AO4622" X="328" Y="256" />
+    <Module Name="X20TB12f" Type="X20TB12" X="328" Y="283" />
+    <Module Name="X20PS9402" Type="X20PS9402" X="263" Y="256" />
+    <Module Name="X20TB12b" Type="X20TB12" X="263" Y="283" />
+    <Module Name="X20BC0083" Type="X20BC0083" X="238" Y="256" />
+  </Modules>
+  <Links>
+    <Link From="4PPC70_0702_20B" To="X20BC0083" FromPort="IF1" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="145.299988" Y="202" />
+      <Point X="145.299988" Y="202" />
+      <Point X="145.299988" Y="207" />
+      <Point X="145.299988" Y="331" />
+      <Point X="237.599991" Y="331" />
+      <Point X="252.599991" Y="331" />
+      <Point X="252.599991" Y="331" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="DPV">
+    <Folder Name="Drivers">
+      <Folder Name="POBJ">
+        <Object Name="DataSource" ClsId="0x200" Version="1" Type="DS" RefString="Source[global].DataSource[DataSource]">
+          <Reference Name="DriverID" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <Reference Name="TextGroup" Type="TG">None</Reference>
+          <UInt32 Name="PVCount">8</UInt32>
+          <UInt32 Name="ImageSize">23</UInt32>
+          <Table Name="Variables" Cols="5">
+            <TableHeader>
+              <Column Name="PVID" />
+              <Column Name="PVType" />
+              <Column Name="PVOffset" />
+              <Column Name="PVDim" />
+              <Column Name="PVName" />
+            </TableHeader>
+            <Group Name="measurement.number_of_cycles">
+              <UInt16 Name="ID">0</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">0</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">0</Int32>
+            </Group>
+            <Group Name="measurement.time">
+              <UInt16 Name="ID">1</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">2</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">29</Int32>
+            </Group>
+            <Group Name="measurement.start">
+              <UInt16 Name="ID">2</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">4</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">46</Int32>
+            </Group>
+            <Group Name="measurement.actual_cycle">
+              <UInt16 Name="ID">3</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">5</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">64</Int32>
+            </Group>
+            <Group Name="measurement.desired_pressures[0]">
+              <UInt16 Name="ID">4</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">7</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">89</Int32>
+            </Group>
+            <Group Name="measurement.desired_pressures[1]">
+              <UInt16 Name="ID">5</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">11</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">122</Int32>
+            </Group>
+            <Group Name="measurement.desired_pressures[2]">
+              <UInt16 Name="ID">6</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">15</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">155</Int32>
+            </Group>
+            <Group Name="measurement.desired_pressures[3]">
+              <UInt16 Name="ID">7</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">19</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">188</Int32>
+            </Group>
+          </Table>
+          <Binary Name="Name" Encoding="Base64">bWVhc3VyZW1lbnQubnVtYmVyX29mX2N5Y2xlcwBtZWFzdXJlbWVudC50aW1lAG1lYXN1cmVtZW50LnN0YXJ0AG1lYXN1cmVtZW50LmFjdHVhbF9jeWNsZQBtZWFzdXJlbWVudC5kZXNpcmVkX3ByZXNzdXJlc1swXQBtZWFzdXJlbWVudC5kZXNpcmVkX3ByZXNzdXJlc1sxXQBtZWFzdXJlbWVudC5kZXNpcmVkX3ByZXNzdXJlc1syXQBtZWFzdXJlbWVudC5kZXNpcmVkX3ByZXNzdXJlc1szXQA=</Binary>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>
